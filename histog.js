@@ -3,8 +3,8 @@ function gethistogram(titles, color0, color1, class1, class2, idhist, idscat, ur
 //console.log(class1,class2)
 
     // set the dimensions and margins of the graph
-    const margin = {top: 10, right: 30, bottom: 30, left: 40},
-        width = 400 - margin.left - margin.right,
+    const margin = {top: 10, right: 20, bottom: 30, left: 20},
+        width = 450 - margin.left - margin.right,
         height = 350 - margin.top - margin.bottom;
 
     // append the svg object to the body of the page

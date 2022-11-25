@@ -10,7 +10,7 @@ body {
 }
 
 .btn-group h2 {
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .main {
@@ -222,7 +222,7 @@ h3, h4 {
     left: 225px;
     top: -630px;
     height: 350px;
-    width: 400px;
+    width: 450px;
 }
 
 .svk1 {
@@ -230,7 +230,7 @@ h3, h4 {
     left: 675px;
     top: -980px;
     height: 350px;
-    width: 400px;
+    width: 450px;
 }
 
 /* density plot area */
