@@ -9,6 +9,10 @@ body {
     color: black;
 }
 
+.btn-group h2 {
+    font-size: 19px;
+}
+
 .main {
     position: relative;
     overflow-x: hidden;
@@ -184,7 +188,7 @@ h3, h4 {
 }
 
 .btn-group {
-    padding: 20px 30px;
+    padding: 35px 30px;
 }
 
 .form-group {
