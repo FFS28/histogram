@@ -51,7 +51,6 @@ function scatterPlot(id, url, givenTopic, givenclass, iddensity) {
 
     // get the data
     d3.csv(url).then(function (data) {
-
         //console.log(data);
 
         const valuesWithFeatures0 = {}
@@ -79,7 +78,6 @@ function scatterPlot(id, url, givenTopic, givenclass, iddensity) {
 
 
         }
-
         var z
 
         function transform(givcals) {
@@ -100,40 +98,21 @@ function scatterPlot(id, url, givenTopic, givenclass, iddensity) {
         }
 
         // console.log(valuesWithFeatures0);//max and minin ortalamsını verir.
-        var sumstat = [];
         for (valuesIndex in valuesWithFeatures0) {
             var totalValues = []
-            var __values = [];
             for (j of valuesWithFeatures0[valuesIndex]) {
                 totalValues.push({"key": valuesIndex, "value": j})
-                __values.push(j);
             }
-
             // const avg = valuesWithFeatures0[valuesIndex].reduce((a,b) => parseInt(a)+parseInt(b), 0) / valuesWithFeatures0[valuesIndex].length;
             // const min = Math.min(...valuesWithFeatures0[valuesIndex])
             // const max=Math.max(...valuesWithFeatures0[valuesIndex])
             // valuesWithFeatures0[valuesIndex] = {"avg": avg, "min": min, "max": max, "totalValues":totalValues};
-
             const avg = valuesWithFeatures0[valuesIndex].reduce((a, b) => parseInt(a) + parseInt(b), 0) / valuesWithFeatures0[valuesIndex].length;
             const min = Math.min(...valuesWithFeatures0[valuesIndex])
             const max = Math.max(...valuesWithFeatures0[valuesIndex])
-
-            var __valuesSorted = __values.sort((a, b) => a - b);
-            var __q1 = d3.quantile(__valuesSorted, .25);
-            var __median = d3.quantile(__valuesSorted, .5);
-            var __q3 = d3.quantile(__valuesSorted, .75);
-            var __interQuantileRange = __q3 - __q1;
-            var __min = __q1 - 1.5 * __interQuantileRange;
-            var __max = __q3 + 1.5 * __interQuantileRange;
-
             valuesWithFeatures0[valuesIndex] = {"avg": avg, "min": min, "max": max, "totalValues": totalValues};
-            sumstat.push({"key": valuesIndex, "value": {"max": __max, "min": __min, "median": __median, "interQuantileRange": __interQuantileRange, "q1": __q1, "q3": __q3}});
-
             // console.log(totalValues)
         }
-
-        console.log(sumstat)
-
         // console.log(givenTopic)
         //console.log(valuesWithFeatures0)
         //console.log(valuesWithTopics);
@@ -164,14 +143,10 @@ function scatterPlot(id, url, givenTopic, givenclass, iddensity) {
         //console.log(valuesWithFeatures0);
         const data1 = [];
         for (topicKey of Object.keys(valuesWithFeatures0)) {
-            // var __valArr = valuesWithFeatures0
-            // var __sorted  = valuesWithFeatures0[topicKey].totalValues.sort((a, b) => a.value - b.value);
-            // console.log(__sorted)
-            // var __q1 = d3.quantile(__sorted, .25);
-            // console.log("q1", __q1)
             data1.push({
                 key: topicKey,
                 value: valuesWithFeatures0[topicKey]
+
             });
 //    console.log(data1)//max min avg values are there
         }
@@ -362,6 +337,43 @@ function scatterPlot(id, url, givenTopic, givenclass, iddensity) {
         }
 
         function getMaxpos(key, dvaluemax) {
+            let x1 = dvaluemax
+            if (key == "WPS") {
+                return x(150)
+
+            }
+            if (key == "Tone") {
+                return x(70)
+
+            }
+            if (key == "negative") {
+                return x(90)
+
+            }
+            if (key == "you") {
+                return x(4)
+            }
+
+
+            if (key == "Linguistic") {
+                return x(100)
+
+            }
+            if (key == "we") {
+                return x(4)
+
+            }
+            if (key == "Authentic") {
+                return x(70)
+
+            } else {
+
+                return x(x1)
+            }
+
+        }
+
+        function getMinpos(key, dvaluemax) {
             let x1 = dvaluemax
             if (key == "WPS") {
                 return x(150)

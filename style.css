@@ -15,15 +15,21 @@ body {
 
 .main {
     position: relative;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+}
+
+.density-area {
+    position: absolute;
+    top: 445px;
+    left: 230px;
 }
 
 .density-title {
     width: 280px;
     text-align: center;
-    position: relative;
-    top: -980px;
-    left: 225px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     align-items: center;
     color: white;
 }
@@ -196,21 +202,22 @@ h3, h4 {
 }
 
 .figure1 {
-    position: relative;
-    left: 1025px;
-    top: -3590px;
+    position: absolute;
+    left: 800px;
+    top: -320px;
+    /* top: -3590px; */
     height: 340px;
 }
 
 .figure2 {
-    position: relative;
-    left: 1025px;
-    top: -3500px;
+    position: absolute;
+    left: 800px;
+    top: 132px;
     height: 340px;
 }
 
 .person {
-    position: relative;
+    position: absolute;
     left: 380px;
     top: -4500px;
     height: 600px;
@@ -218,92 +225,92 @@ h3, h4 {
 }
 
 .svk {
-    position: relative;
+    position: absolute;
     left: 225px;
-    top: -630px;
+    top: 85px;
     height: 350px;
     width: 450px;
 }
 
 .svk1 {
-    position: relative;
+    position: absolute;
     left: 675px;
-    top: -980px;
+    top: 85px;
     height: 350px;
     width: 450px;
 }
 
 /* density plot area */
 .svk2 {
-    position: relative;
-    left: 225px;
-    top: -970px;
+    position: absolute;
+    left: 0px;
+    top: 42px;
     height: 250px;
     width: 250px;
 }
 
 .svk4 {
-    position: relative;
-    left: 525px;
-    top: -1220px;
+    position: absolute;
+    left: 300px;
+    top: 42px;
     height: 250px;
     width: 250px;
 }
 
 .svk5 {
-    position: relative;
-    left: 825px;
-    top: -1470px;
+    position: absolute;
+    left: 600px;
+    top: 42px;
     height: 250px;
     width: 250px;
 }
 
 
 .svk6 {
-    position: relative;
-    left: 225px;
-    top: -1450px;
+    position: absolute;
+    left: 0px;
+    top: 315px;
     height: 250px;
     width: 250px;
 }
 
 .svk7 {
-    position: relative;
-    left: 525px;
-    top: -1700px;
+    position: absolute;
+    left: 300px;
+    top: 315px;
     height: 250px;
     width: 250px;
 }
 
 .svk8 {
-    position: relative;
-    left: 825px;
-    top: -1950px;
+    position: absolute;
+    left: 600px;
+    top: 315px;
     height: 250px;
     width: 250px;
 }
 
 
 .svk9 {
-    position: relative;
-    left: 225px;
-    top: -1930px;
+    position: absolute;
+    left: 0px;
+    top: 595px;
     height: 250px;
     width: 250px;
 }
 
 .svk10 {
-    position: relative;
-    left: 525px;
-    top: -2180px;
+    position: absolute;
+    left: 300px;
+    top: 595px;
     height: 250px;
     width: 250px;
 }
 
 .svk11 {
-    position: relative;
-    left: 825px;
-    top: -2430px;
+    position: absolute;
+    left: 600px;
+    top: 595px;
     height: 250px;
     width: 250px;
 }
@@ -314,14 +321,18 @@ h3, h4 {
 }
 
 .divv {
-    position: relative;
-    left: 0px;
-    top: -5000px;
+    position: absolute;
+    left: 250px;
+    top: 60px;
 }
 
 .svk3 {
-    position: relative;
+    position: absolute;
     left: 0px;
     top: -5000px;
 
+}
+
+g.axisblack {
+    color: #000;
 }

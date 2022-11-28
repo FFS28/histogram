@@ -116,7 +116,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
     var legend = d3
         .select('#div_customContent')
         .append('svg')
-        .attr('style', 'position:absolute;z-index:-9999999;top: 695px;left: 250px;max-width: 150px;max-height: 35px')
+        .attr('style', 'position:absolute;z-index:-9999999;top: 0px;left: 0px;max-width: 150px;max-height: 35px')
         .selectAll('.legendItem')
         .data(chartData);
 
@@ -157,7 +157,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
     var legend = d3
         .select('#div_customContent')
         .append('svg')
-        .attr('style', 'position:absolute;z-index:-9999999;top: 712px;left: 325px;max-height: 35px')
+        .attr('style', 'position:absolute;z-index:-9999999;top: 17px;left: 75px;max-height: 35px')
         .selectAll('.legendItem')
         .data(chartData);
 
@@ -206,7 +206,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
     var legend = d3
         .select('#div_customContent')
         .append('svg')
-        .attr('style', 'position:absolute;z-index:-9999999;top: 695px;left: 325px;max-height: 35px')
+        .attr('style', 'position:absolute;z-index:-9999999;top: 0px;left: 75px;max-height: 35px')
         .selectAll('.legendItem')
         .data(chartData);
 
@@ -272,7 +272,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
             return tooltip2.style("visibility", "visible");
         })
         .on("mousemove", function (d) {
-            return (tooltip2.html("Class:" + transform(class1) + "<br>Features:Temporal" + "<br>Sub features:" + trans("temporal") + "<br>Value:" + d.path[0]["__data__"].value,)).style("top", (event.pageY + 670) + "px").style("left", (event.pageX - 210) + "px");
+            return (tooltip2.html("Class:" + transform(class1) + "<br>Features:Temporal" + "<br>Sub features:" + trans("temporal") + "<br>Value:" + d.path[0]["__data__"].value,)).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
         })
         .on("mouseout", function (d) {
             return tooltip2.style("visibility", "hidden");
@@ -288,7 +288,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
             return tooltip2.style("visibility", "visible");
         })
         .on("mousemove", function (d) {
-            return (tooltip2.html("Class:" + transform(class2) + "<br>Features:Temporal" + "<br>Sub features:" + trans("temporal") + "<br>Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY + 670) + "px").style("left", (event.pageX - 210) + "px");
+            return (tooltip2.html("Class:" + transform(class2) + "<br>Features:Temporal" + "<br>Sub features:" + trans("temporal") + "<br>Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
         })
         .on("mouseout", function (d) {
             return tooltip2.style("visibility", "hidden");
@@ -303,7 +303,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
             return tooltip2.style("visibility", "visible");
         })
         .on("mousemove", function (d) {
-            return tooltip2.html("Class:" + transform(class1) + "<br>Features:Sentiment" + "<br>Sub features:" + trans("sentiment") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY + 670) + "px").style("left", (event.pageX - 210) + "px");
+            return tooltip2.html("Class:" + transform(class1) + "<br>Features:Sentiment" + "<br>Sub features:" + trans("sentiment") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
         })
         .on("mouseout", function (d) {
             return tooltip2.style("visibility", "hidden");
@@ -319,7 +319,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
             return tooltip2.style("visibility", "visible");
         })
         .on("mousemove", function (d) {
-            return (tooltip2.html("Class:" + transform(class2) + "<br>Features:Sentiment" + "<br>Sub features:" + trans("sentiment") + "<br>Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY + 670) + "px").style("left", (event.pageX - 210) + "px");
+            return (tooltip2.html("Class:" + transform(class2) + "<br>Features:Sentiment" + "<br>Sub features:" + trans("sentiment") + "<br>Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
         })
         .on("mouseout", function (d) {
             return tooltip2.style("visibility", "hidden");
@@ -335,7 +335,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
             return tooltip2.style("visibility", "visible");
         })
         .on("mousemove", function (d) {
-            return tooltip2.html("Class:" + transform(class1) + "<br>Features:Pysholingustic" + "<br>Sub features:" + trans("pysholingustic") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY + 670) + "px").style("left", (event.pageX - 210) + "px");
+            return tooltip2.html("Class:" + transform(class1) + "<br>Features:Pysholingustic" + "<br>Sub features:" + trans("pysholingustic") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
         })
         .on("mouseout", function (d) {
             return tooltip2.style("visibility", "hidden");
@@ -349,7 +349,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
             return tooltip2.style("visibility", "visible");
         })
         .on("mousemove", function (d) {
-            return tooltip2.html("Class:" + transform(class2) + "<br>Features:Pysholingustic" + "<br>Sub features:" + trans("pysholingustic") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY + 670) + "px").style("left", (event.pageX - 210) + "px");
+            return tooltip2.html("Class:" + transform(class2) + "<br>Features:Pysholingustic" + "<br>Sub features:" + trans("pysholingustic") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
         })
         .on("mouseout", function (d) {
             return tooltip2.style("visibility", "hidden");
@@ -364,7 +364,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
             return tooltip2.style("visibility", "visible");
         })
         .on("mousemove", function (d) {
-            return tooltip2.html("Class:" + transform(class1) + "<br>Features:Emotion" + "<br>Sub features:" + trans("emotion") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY + 670) + "px").style("left", (event.pageX - 210) + "px");
+            return tooltip2.html("Class:" + transform(class1) + "<br>Features:Emotion" + "<br>Sub features:" + trans("emotion") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
         })
         .on("mouseout", function (d) {
             return tooltip2.style("visibility", "hidden");
@@ -378,7 +378,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
             return tooltip2.style("visibility", "visible");
         })
         .on("mousemove", function (d) {
-            return tooltip2.html("Class:" + transform(class2) + "<br>Features:Emotion" + "<br>Sub features:" + trans("emotion") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY + 670) + "px").style("left", (event.pageX - 210) + "px");
+            return tooltip2.html("Class:" + transform(class2) + "<br>Features:Emotion" + "<br>Sub features:" + trans("emotion") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
         })
         .on("mouseout", function (d) {
             return tooltip2.style("visibility", "hidden");
@@ -393,7 +393,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
             return tooltip2.style("visibility", "visible");
         })
         .on("mousemove", function (d) {
-            return tooltip2.html("Class:" + transform(class1) + "<br>Features:lexical" + "<br>Sub features:" + trans("lexical") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY + 670) + "px").style("left", (event.pageX - 210) + "px");
+            return tooltip2.html("Class:" + transform(class1) + "<br>Features:lexical" + "<br>Sub features:" + trans("lexical") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
         })
         .on("mouseout", function (d) {
             return tooltip2.style("visibility", "hidden");
@@ -407,7 +407,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
             return tooltip2.style("visibility", "visible");
         })
         .on("mousemove", function (d) {
-            return tooltip2.html("Class:" + transform(class2) + "<br>Features:lexical" + "<br>Sub features:" + trans("lexical") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY + 670) + "px").style("left", (event.pageX - 210) + "px");
+            return tooltip2.html("Class:" + transform(class2) + "<br>Features:lexical" + "<br>Sub features:" + trans("lexical") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
         })
         .on("mouseout", function (d) {
             return tooltip2.style("visibility", "hidden");

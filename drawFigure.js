@@ -579,7 +579,7 @@ function fuc(subfeatur) {
                     return tooltip2.style("visibility", "visible");
                 })
                 .on("mousemove", function (d) {
-                    return (tooltip2.html("Scene:1" + "<br>" + "Subfeature: " + subfeatur + "<br>Range:" + d.path[0]["__data__"].key + "<br> Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY + 650) + "px").style("left", (event.pageX - 180) + "px");
+                    return (tooltip2.html("Scene:1" + "<br>" + "Subfeature: " + subfeatur + "<br>Range:" + d.path[0]["__data__"].key + "<br> Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY  -40) + "px").style("left", (event.pageX - 370) + "px");
                 })
                 .on("mouseout", function (d) {
                     return tooltip2.style("visibility", "hidden");
@@ -602,7 +602,7 @@ function fuc(subfeatur) {
                     return tooltip2.style("visibility", "visible");
                 })
                 .on("mousemove", function (d) {
-                    return (tooltip2.html("Scene:1" + "<br>" + "Subfeature: " + subfeatur + "<br>Range:" + d.path[0]["__data__"].key + "<br> Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY + 650) + "px").style("left", (event.pageX - 180) + "px");
+                    return (tooltip2.html("Scene:1" + "<br>" + "Subfeature: " + subfeatur + "<br>Range:" + d.path[0]["__data__"].key + "<br> Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY - 40) + "px").style("left", (event.pageX - 370) + "px");
                 })
                 .on("mouseout", function (d) {
                     return tooltip2.style("visibility", "hidden");
@@ -625,7 +625,7 @@ function fuc(subfeatur) {
                     return tooltip2.style("visibility", "visible");
                 })
                 .on("mousemove", function (d) {
-                    return (tooltip2.html("Scene:1" + "<br>" + "Subfeature: " + subfeatur + "<br>Range:" + d.path[0]["__data__"].key + "<br> Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY + 650) + "px").style("left", (event.pageX - 180) + "px");
+                    return (tooltip2.html("Scene:1" + "<br>" + "Subfeature: " + subfeatur + "<br>Range:" + d.path[0]["__data__"].key + "<br> Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY - 40) + "px").style("left", (event.pageX - 370) + "px");
                 })
                 .on("mouseout", function (d) {
                     return tooltip2.style("visibility", "hidden");
@@ -1285,7 +1285,7 @@ function fuc1(subfeatur) {
                     return tooltip2.style("visibility", "visible");
                 })
                 .on("mousemove", function (d) {
-                    return (tooltip2.html("Scene:2" + "<br>" + "Subfeature: " + subfeatur + "<br>Range:" + d.path[0]["__data__"].key + "<br> Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY + 650) + "px").style("left", (event.pageX - 180) + "px");
+                    return (tooltip2.html("Scene:2" + "<br>" + "Subfeature: " + subfeatur + "<br>Range:" + d.path[0]["__data__"].key + "<br> Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY - 40) + "px").style("left", (event.pageX - 370) + "px");
                 })
                 .on("mouseout", function (d) {
                     return tooltip2.style("visibility", "hidden");
@@ -1308,7 +1308,7 @@ function fuc1(subfeatur) {
                     return tooltip2.style("visibility", "visible");
                 })
                 .on("mousemove", function (d) {
-                    return (tooltip2.html("Scene:2" + "<br>" + "Subfeature: " + subfeatur + "<br>Range:" + d.path[0]["__data__"].key + "<br> Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY + 650) + "px").style("left", (event.pageX - 180) + "px");
+                    return (tooltip2.html("Scene:2" + "<br>" + "Subfeature: " + subfeatur + "<br>Range:" + d.path[0]["__data__"].key + "<br> Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY - 40) + "px").style("left", (event.pageX - 370) + "px");
                 })
                 .on("mouseout", function (d) {
                     return tooltip2.style("visibility", "hidden");
@@ -1334,7 +1334,7 @@ function fuc1(subfeatur) {
                     return tooltip2.style("visibility", "visible");
                 })
                 .on("mousemove", function (d) {
-                    return (tooltip2.html("Scene:2" + "<br>" + "Subfeature: " + subfeatur + "<br>Range:" + d.path[0]["__data__"].key + "<br> Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY + 650) + "px").style("left", (event.pageX - 180) + "px");
+                    return (tooltip2.html("Scene:2" + "<br>" + "Subfeature: " + subfeatur + "<br>Range:" + d.path[0]["__data__"].key + "<br> Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY - 40) + "px").style("left", (event.pageX - 370) + "px");
                 })
                 .on("mouseout", function (d) {
                     return tooltip2.style("visibility", "hidden");

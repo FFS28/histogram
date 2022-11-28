@@ -144,7 +144,7 @@ function drawdensity(subfeatures, id) {
                 })
                 .on("mousemove", function (d) {
                     // console.log(d);
-                    return (tooltip2.html("Scene:1" + "<br>" + "Subfeature: " + subfeatures)).style("top", (event.pageY + 600) + "px").style("left", (event.pageX - 200) + "px");
+                    return (tooltip2.html("Scene:1" + "<br>" + "Subfeature: " + subfeatures)).style("top", (event.pageY - 40) + "px").style("left", (event.pageX - 370) + "px");
                 })
                 .on("mouseout", function (d) {
                     return tooltip2.style("visibility", "hidden");
@@ -179,7 +179,7 @@ function drawdensity(subfeatures, id) {
                 })
                 .on("mousemove", function (d) {
                     // console.log(d);
-                    return (tooltip2.html("Scene:2" + "<br>" + "Subfeature: " + subfeatures)).style("top", (event.pageY + 600) + "px").style("left", (event.pageX - 200) + "px");
+                    return (tooltip2.html("Scene:2" + "<br>" + "Subfeature: " + subfeatures)).style("top", (event.pageY -40) + "px").style("left", (event.pageX - 370) + "px");
                 })
                 .on("mouseout", function (d) {
                     return tooltip2.style("visibility", "hidden");
