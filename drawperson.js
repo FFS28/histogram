@@ -1,5 +1,5 @@
 function drawpersons(subfeatur) {
-    console.log(subfeatur)
+    // console.log(subfeatur)
 
     document.getElementById("figure1").innerHTML = " "
 
@@ -348,7 +348,7 @@ function drawpersons(subfeatur) {
 
             }
 
-            console.log(f(data0))
+            // console.log(f(data0))
 
 
             let newData0 = []
@@ -510,7 +510,7 @@ function drawpersons(subfeatur) {
 
 
 function drawperson2(subfeatur) {
-    console.log("2", subfeatur)
+    // console.log("2", subfeatur)
     // console.log(document.getElementById("figure1"))
 
 
@@ -605,7 +605,7 @@ function drawperson2(subfeatur) {
             // // }
 
             //getYaxislimitvalues
-            console.log(Math.floor(3.44555555))
+            // console.log(Math.floor(3.44555555))
 
 
             function getLimitValues(list) {
@@ -617,7 +617,7 @@ function drawperson2(subfeatur) {
                 Math.floor(rangeValue)
                 // rangeValue=parseInt(String(rangeValue))
                 // rangeValue=parseInt(rangeValue)
-                console.log(3 * rangeValue)
+                // console.log(3 * rangeValue)
 
                 //key1,key2,key3,key4,key5
 
@@ -981,7 +981,7 @@ function drawperson2(subfeatur) {
 
             for (i of data0) {
                 for (val of i[1]) {
-                    console.log(i)
+                    // console.log(i)
                     newData0.push({
                         key: i[0],
                         value: val
@@ -1010,7 +1010,7 @@ function drawperson2(subfeatur) {
                 }
 
             }
-            console.log(newData0)
+            // console.log(newData0)
 
             var tooltip2 = d3.select("#div_customContent")
                 .append("div")

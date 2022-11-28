@@ -81,7 +81,7 @@ function getmaxmin(subfeatures) {
                 .map(function (d) {
                     return parseInt(getlabel(d));
                 }))
-            console.log(density1)
+            // console.log(density1)
 
             svg.append("path")
                 .attr("class", "mypath")
@@ -115,7 +115,7 @@ function getmaxmin(subfeatures) {
                 .attr("d", d3.line()
                     .curve(d3.curveBasis)
                     .x(function (d) {
-                        console.log(d);
+                        // console.log(d);
                         x(d[0]);
                         dataxvalues.push(d[0])
                     })

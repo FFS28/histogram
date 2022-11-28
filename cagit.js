@@ -149,7 +149,7 @@ function scatterPlot(id, url, givenTopic, givenclass, iddensity) {
             });
 //    console.log(data1)//max min avg values are there
         }
-        console.log(valuesWithFeatures0)
+        // console.log(valuesWithFeatures0)
         // append the bar rectangles to the svg element
         //console.log(data1)//1. 20 ->55 55 ->90 2 115
         const selection = svg.selectAll("whatever")
@@ -637,7 +637,7 @@ function scatterPlot(id, url, givenTopic, givenclass, iddensity) {
             // .attr("r","10")
             .attr("height", y.bandwidth())
             .attr("fill", function (d) {
-                console.log(d.key);
+                // console.log(d.key);
                 return getSubfeatureName(d.key)
             })
             .attr("stroke", function (d) {

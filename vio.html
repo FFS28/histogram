@@ -95,7 +95,7 @@
             .enter() // So now we are working group per group
             .append("g")
             .attr("transform", function (d) {
-                console.log(d.value)
+                // console.log(d.value)
                 return ("translate(0," + y(d.key) + ")")
             }) // Translation on the right to be at the group position
             .append("path")
@@ -106,14 +106,14 @@
             .style("fill", "#69b3a2")
             .attr("d", d3.area()
                 .x(function (d) {
-                    console.log(d);
+                    // console.log(d);
                     return (x(d.x0))
                 })
                 .y0(function (d) {
                     return (yNum(-d.length))
                 })
                 .y1(function (d) {
-                    return (yNum(d.))
+                    // return (yNum(d.))
                 })
                 .curve(d3.curveCatmullRom) // This makes the line smoother to give the violin appearance. Try d3.curveStep to see the difference
             )

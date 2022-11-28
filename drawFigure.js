@@ -176,7 +176,7 @@ function fuc(subfeatur) {
 
             function getmx(len0, len1, len2, list) {
                 var keylist = []
-                console.log(keylist)
+                // console.log(keylist)
 
                 var rangeValue = list[0] / 5
                 rangeValue = Math.ceil(rangeValue)
@@ -398,7 +398,7 @@ function fuc(subfeatur) {
                 data11[3][1], data11[3][2], data11[3][3],
                 data11[4][1], data11[4][2], data11[4][3]]
 
-            console.log(maxCheckvalue1)
+            // console.log(maxCheckvalue1)
 
             let maxVl0 = Math.max(...maxCheckvalue0)
             let maxVl1 = Math.max(...maxCheckvalue1)
@@ -515,8 +515,8 @@ function fuc(subfeatur) {
 //     .html("<p>I'm a tooltip written in HTML</p><img src='https://github.com/holtzy/D3-graph-gallery/blob/master/img/section/ArcSmal.png?raw=true'></img><br>Fancy<br><span style='font-size: 40px;'>Isn't it?</span>");
 
 
-            console.log(newDatazerozero, newDatazeroone, newDatazerotwo)
-            console.log(newDatazero, newDataone, newDatatwo)//
+            // console.log(newDatazerozero, newDatazeroone, newDatazerotwo)
+            // console.log(newDatazero, newDataone, newDatatwo)//
 
 // svg0.selectAll("mycircle")
 // .data(newDatazero)
@@ -569,7 +569,7 @@ function fuc(subfeatur) {
                 .append("path")
                 .attr("transform",
                     function (d) {
-                        return "translate(" + x(d.value) + " " + (y(d.key) + 10) + ") scale(0.05 0.04)"
+                        return "translate(" + x(d.value) + " " + (y(d.key) + 9) + ") scale(0.04 0.035)"
                     })
                 .attr("d", "M234.936 122.235v-19.323c6.912 4.117 13.834 6.185 20.726 6.185 7.588 0 14.818-2.058 21.391-6.185l0.358 19.323h66.263l43.837 186.757h-32.44l-33.843-142.582-19.682 103.219 42.117 223.365h-43.479l-44.185-183.664-43.479 183.664h-43.868l45.23-223.365-22.446-103.557-33.485 142.919h-33.475l44.165-186.757h66.294zM256 108.431c12.421 0 22.784-4.495 31.406-13.118 9.001-8.981 13.118-19.344 13.118-31.785 0-29.675-14.817-44.523-44.524-44.523-12.421 0-22.784 4.465-31.774 13.476-8.632 8.94-13.097 19.323-13.097 31.038 0 12.8 4.475 23.184 13.456 31.785 8.632 8.622 19.323 13.127 31.416 13.127z")
 
@@ -592,7 +592,7 @@ function fuc(subfeatur) {
                 .append("path")
                 .attr("transform",
                     function (d) {
-                        return "translate(" + x(d.value) + " " + (y(d.key) + 30) + ") scale(0.05 0.04)"
+                        return "translate(" + x(d.value) + " " + (y(d.key) + 30) + ") scale(0.04 0.035)"
                     })
                 .attr("d", "M234.936 122.235v-19.323c6.912 4.117 13.834 6.185 20.726 6.185 7.588 0 14.818-2.058 21.391-6.185l0.358 19.323h66.263l43.837 186.757h-32.44l-33.843-142.582-19.682 103.219 42.117 223.365h-43.479l-44.185-183.664-43.479 183.664h-43.868l45.23-223.365-22.446-103.557-33.485 142.919h-33.475l44.165-186.757h66.294zM256 108.431c12.421 0 22.784-4.495 31.406-13.118 9.001-8.981 13.118-19.344 13.118-31.785 0-29.675-14.817-44.523-44.524-44.523-12.421 0-22.784 4.465-31.774 13.476-8.632 8.94-13.097 19.323-13.097 31.038 0 12.8 4.475 23.184 13.456 31.785 8.632 8.622 19.323 13.127 31.416 13.127z")
 
@@ -615,7 +615,7 @@ function fuc(subfeatur) {
                 .append("path")
                 .attr("transform",
                     function (d) {
-                        return "translate(" + x(d.value) + " " + (y(d.key) + 50) + ") scale(0.05 0.04)"
+                        return "translate(" + x(d.value) + " " + (y(d.key) + 51) + ") scale(0.04 0.035)"
                     })
                 .attr("d", "M234.936 122.235v-19.323c6.912 4.117 13.834 6.185 20.726 6.185 7.588 0 14.818-2.058 21.391-6.185l0.358 19.323h66.263l43.837 186.757h-32.44l-33.843-142.582-19.682 103.219 42.117 223.365h-43.479l-44.185-183.664-43.479 183.664h-43.868l45.23-223.365-22.446-103.557-33.485 142.919h-33.475l44.165-186.757h66.294zM256 108.431c12.421 0 22.784-4.495 31.406-13.118 9.001-8.981 13.118-19.344 13.118-31.785 0-29.675-14.817-44.523-44.524-44.523-12.421 0-22.784 4.465-31.774 13.476-8.632 8.94-13.097 19.323-13.097 31.038 0 12.8 4.475 23.184 13.456 31.785 8.632 8.622 19.323 13.127 31.416 13.127z")
 
@@ -635,7 +635,7 @@ function fuc(subfeatur) {
         })
     })
     var chartData = [
-        {name: "Scene1 - " + subfeatur, color: NaN}
+        {name: "Friendly Scene - " + subfeatur, color: NaN}
     ];
     var legendItemSize = 12;
     // console.log("hello7")
@@ -645,7 +645,7 @@ function fuc(subfeatur) {
     var legend = d3
         .select("#figure2")
         .append('svg')
-        .attr('style', 'position:absolute;z-index: -99999;top: -13px;left: 200px;')
+        .attr('style', 'position:absolute;z-index: -99999;top: -13px;left: 180px;')        /* */
 
         .selectAll('.legendItem')
         .data(chartData);
@@ -1114,7 +1114,7 @@ function fuc1(subfeatur) {
                 data11[3][1], data11[3][2], data11[3][3],
                 data11[4][1], data11[4][2], data11[4][3]]
 
-            console.log(maxCheckvalue1)
+            // console.log(maxCheckvalue1)
 
             let maxVl0 = Math.max(...maxCheckvalue0)
             let maxVl1 = Math.max(...maxCheckvalue1)
@@ -1221,8 +1221,8 @@ function fuc1(subfeatur) {
 //     .html("<p>I'm a tooltip written in HTML</p><img src='https://github.com/holtzy/D3-graph-gallery/blob/master/img/section/ArcSmal.png?raw=true'></img><br>Fancy<br><span style='font-size: 40px;'>Isn't it?</span>");
 
 
-            console.log(newDatazerozero, newDatazeroone, newDatazerotwo)
-            console.log(newDatazero, newDataone, newDatatwo)//
+            // console.log(newDatazerozero, newDatazeroone, newDatazerotwo)
+            // console.log(newDatazero, newDataone, newDatatwo)//
 
 // svg0.selectAll("mycircle")
 // .data(newDatazero)
@@ -1275,7 +1275,7 @@ function fuc1(subfeatur) {
                 .append("path")
                 .attr("transform",
                     function (d) {
-                        return "translate(" + x(d.value) + " " + (y(d.key) + 10) + ") scale(0.05 0.04)"
+                        return "translate(" + x(d.value) + " " + (y(d.key) + 9) + ") scale(0.04 0.035)"
                     })
                 .attr("d", "M234.936 122.235v-19.323c6.912 4.117 13.834 6.185 20.726 6.185 7.588 0 14.818-2.058 21.391-6.185l0.358 19.323h66.263l43.837 186.757h-32.44l-33.843-142.582-19.682 103.219 42.117 223.365h-43.479l-44.185-183.664-43.479 183.664h-43.868l45.23-223.365-22.446-103.557-33.485 142.919h-33.475l44.165-186.757h66.294zM256 108.431c12.421 0 22.784-4.495 31.406-13.118 9.001-8.981 13.118-19.344 13.118-31.785 0-29.675-14.817-44.523-44.524-44.523-12.421 0-22.784 4.465-31.774 13.476-8.632 8.94-13.097 19.323-13.097 31.038 0 12.8 4.475 23.184 13.456 31.785 8.632 8.622 19.323 13.127 31.416 13.127z")
 
@@ -1298,7 +1298,7 @@ function fuc1(subfeatur) {
                 .append("path")
                 .attr("transform",
                     function (d) {
-                        return "translate(" + x(d.value) + " " + (y(d.key) + 30) + ") scale(0.05 0.04)"
+                        return "translate(" + x(d.value) + " " + (y(d.key) + 30) + ") scale(0.04 0.035)"
                     })
                 .attr("d", "M234.936 122.235v-19.323c6.912 4.117 13.834 6.185 20.726 6.185 7.588 0 14.818-2.058 21.391-6.185l0.358 19.323h66.263l43.837 186.757h-32.44l-33.843-142.582-19.682 103.219 42.117 223.365h-43.479l-44.185-183.664-43.479 183.664h-43.868l45.23-223.365-22.446-103.557-33.485 142.919h-33.475l44.165-186.757h66.294zM256 108.431c12.421 0 22.784-4.495 31.406-13.118 9.001-8.981 13.118-19.344 13.118-31.785 0-29.675-14.817-44.523-44.524-44.523-12.421 0-22.784 4.465-31.774 13.476-8.632 8.94-13.097 19.323-13.097 31.038 0 12.8 4.475 23.184 13.456 31.785 8.632 8.622 19.323 13.127 31.416 13.127z")
 
@@ -1324,7 +1324,7 @@ function fuc1(subfeatur) {
                 .append("path")
                 .attr("transform",
                     function (d) {
-                        return "translate(" + x(d.value) + " " + (y(d.key) + 50) + ") scale(0.05 0.04)"
+                        return "translate(" + x(d.value) + " " + (y(d.key) + 51) + ") scale(0.04 0.035)"
                     })
                 .attr("d", "M234.936 122.235v-19.323c6.912 4.117 13.834 6.185 20.726 6.185 7.588 0 14.818-2.058 21.391-6.185l0.358 19.323h66.263l43.837 186.757h-32.44l-33.843-142.582-19.682 103.219 42.117 223.365h-43.479l-44.185-183.664-43.479 183.664h-43.868l45.23-223.365-22.446-103.557-33.485 142.919h-33.475l44.165-186.757h66.294zM256 108.431c12.421 0 22.784-4.495 31.406-13.118 9.001-8.981 13.118-19.344 13.118-31.785 0-29.675-14.817-44.523-44.524-44.523-12.421 0-22.784 4.465-31.774 13.476-8.632 8.94-13.097 19.323-13.097 31.038 0 12.8 4.475 23.184 13.456 31.785 8.632 8.622 19.323 13.127 31.416 13.127z")
 
@@ -1346,7 +1346,7 @@ function fuc1(subfeatur) {
 
     var chartData = [
         // {name:subfeatur,color:"black"},
-        {name: "Scene2 - " + subfeatur, color: NaN}
+        {name: "Confrontational Scene - " + subfeatur, color: NaN}
         // {name:"HC",color:"#d95f02"},
         // {name:"BD",color:"#1b9e77"},
         // {name:"SZ",color:"#7570b3"}
@@ -1361,7 +1361,7 @@ function fuc1(subfeatur) {
     var legend = d3
         .select("#figure1")
         .append('svg')
-        .attr('style', 'position:absolute;z-index: -99999;top: -10px;left: 200px;')
+        .attr('style', 'position:absolute;z-index: -99999;top: -5px;left: 157px;')     /* */
         .selectAll('.legendItem')
         .data(chartData);
 

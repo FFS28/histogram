@@ -108,7 +108,7 @@
             var data2Allofvalues = [...Data2controListzero, ...Data2controListone, ...Data2controListtwo]
             var maxAndMinValueFordata2 = [Math.max(...data2Allofvalues), Math.min(...data2Allofvalues)]//[max,min]
 
-            console.log(maxAndMinValueFordata1, maxAndMinValueFordata2)
+            // console.log(maxAndMinValueFordata1, maxAndMinValueFordata2)
 
             // //{
             //     key:"0-100"
@@ -186,7 +186,7 @@
             var buildGraph22 = getDictForgrpah(dictForBuild22)
 
 
-            console.log(Object.keys(buildGraph10))
+            // console.log(Object.keys(buildGraph10))
 
             var length10 = getlengthforgrpah(buildGraph10)
             var length11 = getlengthforgrpah(buildGraph11)
@@ -421,9 +421,9 @@
             //    }
 
             const data0 = [xvalues[0], xvalues[1], xvalues[2], xvalues[3], xvalues[4]];
-            console.log(lookinlist(x[3].value[0]))
+            // console.log(lookinlist(x[3].value[0]))
 
-            console.log(data0)
+            // console.log(data0)
             // var liste11=[...]
             // Append a circle
 
@@ -469,8 +469,8 @@
                 data0[4][1], data0[4][2], data0[4][3]]
 
             maxCheckvalue.sort
-            console.log(data0[2])
-            console.log(data0)
+            // console.log(data0[2])
+            // console.log(data0)
             let maxVl = Math.max(...maxCheckvalue)
 
             function f(array) {
@@ -480,7 +480,7 @@
 
             }
 
-            console.log(f(data0[3]))
+            // console.log(f(data0[3]))
 
 
             let newData0 = []
@@ -518,8 +518,8 @@
 
             }
 
-            console.log(newData0)
-            console.log(newData1)
+            // console.log(newData0)
+            // console.log(newData1)
 
 
             svg.selectAll("mycircle")
@@ -527,7 +527,7 @@
                 .enter()
                 .append("circle")
                 .attr("cx", function (d) {
-                    console.log(d);
+                    // console.log(d);
                     return x(d.value)
                 })
                 .attr("cy", function (d) {
@@ -543,7 +543,7 @@
                 .enter()
                 .append("circle")
                 .attr("cx", function (d) {
-                    console.log(d);
+                    // console.log(d);
                     return x(d.value)
                 })
                 .attr("cy", function (d) {

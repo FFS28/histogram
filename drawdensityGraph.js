@@ -127,7 +127,7 @@ function drawdensity(subfeatures, id) {
                 .html("");
 
             // Plot the area
-            console.log(subfeatures, density1, density2)
+            // console.log(subfeatures, density1, density2)
             svg.append("path")
                 .attr("class", "mypath")
                 .datum(density1)
@@ -143,7 +143,7 @@ function drawdensity(subfeatures, id) {
                     return tooltip2.style("visibility", "visible");
                 })
                 .on("mousemove", function (d) {
-                    console.log(d);
+                    // console.log(d);
                     return (tooltip2.html("Scene:1" + "<br>" + "Subfeature: " + subfeatures)).style("top", (event.pageY + 600) + "px").style("left", (event.pageX - 200) + "px");
                 })
                 .on("mouseout", function (d) {
@@ -153,7 +153,7 @@ function drawdensity(subfeatures, id) {
                 .attr("d", d3.line()
                     .curve(d3.curveBasis)
                     .x(function (d) {
-                        console.log(d);
+                        // console.log(d);
                         return x(d[0]);
                     })
                     .y(function (d) {
@@ -178,7 +178,7 @@ function drawdensity(subfeatures, id) {
                     return tooltip2.style("visibility", "visible");
                 })
                 .on("mousemove", function (d) {
-                    console.log(d);
+                    // console.log(d);
                     return (tooltip2.html("Scene:2" + "<br>" + "Subfeature: " + subfeatures)).style("top", (event.pageY + 600) + "px").style("left", (event.pageX - 200) + "px");
                 })
                 .on("mouseout", function (d) {

@@ -14,7 +14,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
 
     // append the bar rectangles to the svg element
     //console.log(data0)//1. 20 ->55 55 ->90 2 115
-    console.log(data0)
+    // console.log(data0)
     svg.selectAll("rect")
 
         .data(data0)
