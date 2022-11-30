@@ -295,24 +295,24 @@ h3, h4 {
     position: absolute;
     left: 0px;
     top: 1330px;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
 }
 
 .svk10 {
     position: absolute;
     left: 240px;
     top: 1330px;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
 }
 
 .svk11 {
     position: absolute;
     left: 0px;
     top: 1765px;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
 }
 
 .grid-lines line {
