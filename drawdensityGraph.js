@@ -18,8 +18,8 @@ function drawdensity(subfeatures, id) {
 
 // set the dimensions and margins of the graph
     const margin = {top: 30, right: 30, bottom: 30, left: 50},
-        width = 400 - margin.left - margin.right,
-        height = 400 - margin.top - margin.bottom;
+        width = 200 - margin.left - margin.right,
+        height = 200 - margin.top - margin.bottom;
 
     // console.log("hello1")
 // append the svg object to the body of the page
@@ -228,7 +228,7 @@ function drawdensity(subfeatures, id) {
     var legend = d3
         .select(id)
         .append('svg')
-        .attr('style', 'position:absolute;top: 18px;left: 65px;')
+        .attr('style', 'position:absolute;top: 18px;left: 35px;')
         .selectAll('.legendItem')
         .data(chartData);
 
@@ -277,7 +277,7 @@ function drawdensity(subfeatures, id) {
         .select(id)
         .append('svg')
 
-        .attr('style', 'position:absolute;top: 18px;left:  140px;')
+        .attr('style', 'position:absolute;top: 18px;left: 110px;')
         .selectAll('.legendItem')
         .data(chartData);
 
@@ -335,7 +335,7 @@ function drawdensity(subfeatures, id) {
     var legend = d3
         .select(id)
         .append('svg')
-        .attr('style', 'position:absolute;top: 2px;left: 75px;font-weight: bold;')
+        .attr('style', 'position:absolute;top: 2px;left: 55px;font-weight: bold;')
         .selectAll('.legendItem')
         .data(chartData);
 
