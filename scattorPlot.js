@@ -288,7 +288,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
             return tooltip2.style("visibility", "visible");
         })
         .on("mousemove", function (d) {
-            return (tooltip2.html("Class:" + transform(class2) + "<br>Features:Temporal" + "<br>Sub features:" + trans("temporal") + "<br>Value:" + d.path[0]["__data__"].value)).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
+            return (tooltip2.html("Class:" + transform(class2) + "<br>Features:Temporal" + "<br>Sub features:" + trans("temporal") + "<br>Value:" + Math.round(d.path[0]["__data__"].value))).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
         })
         .on("mouseout", function (d) {
             return tooltip2.style("visibility", "hidden");
@@ -364,7 +364,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
             return tooltip2.style("visibility", "visible");
         })
         .on("mousemove", function (d) {
-            return tooltip2.html("Class:" + transform(class1) + "<br>Features:Emotion" + "<br>Sub features:" + trans("emotion") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
+            return tooltip2.html("Class:" + transform(class1) + "<br>Features:Emotion" + "<br>Sub features:" + trans("emotion") + "<br>Value:" + Math.round(d.path[0]["__data__"].value)).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
         })
         .on("mouseout", function (d) {
             return tooltip2.style("visibility", "hidden");
@@ -378,7 +378,7 @@ function scatter(class1, class2, color0, color1, valuesWithTopics0, valuesWithTo
             return tooltip2.style("visibility", "visible");
         })
         .on("mousemove", function (d) {
-            return tooltip2.html("Class:" + transform(class2) + "<br>Features:Emotion" + "<br>Sub features:" + trans("emotion") + "<br>Value:" + d.path[0]["__data__"].value).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
+            return tooltip2.html("Class:" + transform(class2) + "<br>Features:Emotion" + "<br>Sub features:" + trans("emotion") + "<br>Value:" + Math.round(d.path[0]["__data__"].value)).style("top", (event.pageY - 20) + "px").style("left", (event.pageX - 480) + "px");
         })
         .on("mouseout", function (d) {
             return tooltip2.style("visibility", "hidden");
