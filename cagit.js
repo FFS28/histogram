@@ -136,7 +136,7 @@ function scatterPlot(id, url, givenTopic, givenclass, iddensity) {
         avg: avg,
         min: min,
         max: max,
-        totalValues: totalValues,
+        totalValues: Math.round(totalValues),
       };
       sumstat.push({
         key: valuesIndex,
