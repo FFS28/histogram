@@ -260,7 +260,7 @@ h3, h4 {
 .svk5 {
     position: absolute;
     left: 0px;
-    top: 470px;
+    top: 300px;
     height: 200px;
     width: 200px;
 }
@@ -269,7 +269,7 @@ h3, h4 {
 .svk6 {
     position: absolute;
     left: 240px;
-    top: 470px;
+    top: 300px;
     height: 200px;
     width: 200px;
 }
@@ -277,7 +277,7 @@ h3, h4 {
 .svk7 {
     position: absolute;
     left: 0px;
-    top: 900px;
+    top: 600px;
     height: 200px;
     width: 200px;
 }
@@ -285,7 +285,7 @@ h3, h4 {
 .svk8 {
     position: absolute;
     left: 240px;
-    top: 900px;
+    top: 600px;
     height: 200px;
     width: 200px;
 }
@@ -294,7 +294,7 @@ h3, h4 {
 .svk9 {
     position: absolute;
     left: 0px;
-    top: 1330px;
+    top: 900px;
     height: 200px;
     width: 200px;
 }
@@ -302,7 +302,7 @@ h3, h4 {
 .svk10 {
     position: absolute;
     left: 240px;
-    top: 1330px;
+    top: 900px;
     height: 200px;
     width: 200px;
 }
