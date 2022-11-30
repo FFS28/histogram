@@ -228,7 +228,7 @@ function drawdensity(subfeatures, id) {
     var legend = d3
         .select(id)
         .append('svg')
-        .attr('style', 'position:absolute;top: 18px;left: 35px;')
+        .attr('style', 'position:absolute;top: 18px;left: 35px; height: 20px')
         .selectAll('.legendItem')
         .data(chartData);
 
@@ -277,7 +277,7 @@ function drawdensity(subfeatures, id) {
         .select(id)
         .append('svg')
 
-        .attr('style', 'position:absolute;top: 18px;left: 110px;')
+        .attr('style', 'position:absolute;top: 18px;left: 110px;height: 20px')
         .selectAll('.legendItem')
         .data(chartData);
 
